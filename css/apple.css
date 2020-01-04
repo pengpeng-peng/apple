@@ -1,0 +1,369 @@
+body {
+    position: relative;
+}
+
+.adv-wrapper {
+    width: 100%;
+    height: 40px;
+    background: #444444;
+    position: fixed;
+    z-index: 100;
+}
+
+/* 板块居中class公用名 */
+
+.con {
+    margin: 0 auto;
+    max-width: 976px;
+}
+
+.adv-wrapper-text {
+    text-align: right;
+    line-height: 40px;
+    font-size: 12px;
+    color: #a8a8aa;
+}
+
+.touch {
+    background: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    top: 40px;
+    z-index: 100;
+}
+
+.nav-logo {
+    background: url(https://www.apple.com.cn/ac/globalnav/5/zh_CN/images/globalnav/apple/image_large.svg) no-repeat center center;
+    width: 16px;
+    height: 44px;
+    background-size: 16px 44px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.con .font {
+    width: 1.85714em;
+    max-width: 44.2px;
+    height: 44px;
+    background-size: cover;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.nav-logo2 {
+    background: url(https://www.apple.com.cn/ac/globalnav/5/zh_CN/images/globalnav/links/mac/image_large.svg) no-repeat center center;
+}
+
+.nav-logo3 {
+    background: url(https://www.apple.com.cn/ac/globalnav/5/zh_CN/images/globalnav/links/ipad/image_large.svg) no-repeat center center;
+}
+
+.con .nav-logo4 {
+    background: url(https://www.apple.com.cn/ac/globalnav/5/zh_CN/images/globalnav/links/iphone/image_large.svg) no-repeat center center;
+    width: 3.14286em;
+    max-width: 74.8px;
+}
+
+.con .nav-logo8 {
+    background: url(https://www.apple.com.cn/ac/globalnav/5/zh_CN/images/globalnav/search/image_large.svg) no-repeat;
+    background-position: 10px 0;
+    width: 30px;
+    background-size: 18px 88px;
+}
+
+.con .nav-logo9 {
+    background: url(https://www.apple.com.cn/ac/globalnav/5/zh_CN/images/globalnav/bag/image_large.svg) no-repeat;
+    background-position: center center;
+    width: 30px;
+    background-size: 18px 88px;
+}
+
+.con li {
+    padding-right: 85px;
+    box-sizing: border-box;
+}
+
+.touch ul {
+    height: 44px;
+}
+
+.touch ul li {
+    display: inline-block;
+}
+
+.touch ul .dow-li {
+    padding-right: 0;
+}
+
+.unit-wrapper {
+    width: 100%;
+    height: 624px;
+    position: relative;
+}
+
+.iphone-11 {
+    width: 100%;
+    height: 624px;
+    position: relative;
+}
+
+.unit-image-iphone-11-pro-hero {
+    background: url(https://www.apple.com.cn/v/home/er/images/heroes/iphone-11-pro/hero__dvsxv8smkkgi_large.jpg) no-repeat center center;
+    width: 100%;
+    height: 624px;
+    background-size: 2560px 624px;
+    position: absolute;
+}
+
+.title {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    width: 100%;
+}
+
+.unit-wrapper .title .headline {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.27143;
+    font-weight: 600;
+}
+
+.unit-wrapper .title .subhead {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    line-height: 1.50722;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+
+.unit-wrapper .title .price {
+    display: block;
+    margin-top: 0.4em;
+    color: #86868b;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.50722;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+
+.unit-wrapper .title .cta-links {
+    display: block;
+    width: 100%;
+}
+
+.unit-wrapper .title span {
+    display: inline-block;
+    margin-top: 0.4em;
+    color: #2997ff;
+    font-size: 20px;
+    line-height: 1.50722;
+    font-weight: 400;
+    letter-spacing: .004em;
+}
+
+.unit-wrapper .title span:hover {
+    text-decoration: underline;
+}
+
+.unit-wrapper .title .title-dow {
+    display: block;
+    text-align: center;
+}
+
+.unit-image-iphone-11 {
+    background: url(https://www.apple.com.cn/v/home/er/images/heroes/iphone-11/hero__dvsxv8smkkgi_large.jpg) no-repeat center center;
+    width: 100%;
+    height: 624px;
+    background-size: 2560px 624px;
+    position: absolute;
+}
+
+.unit-wrapper .title .headline-iphone-11 {
+    color: #000000;
+}
+
+.unit-wrapper .title .subhead1 {
+    color: #000000;
+}
+
+.unit-image-watch {
+    background: url(https://www.apple.com.cn/cn/home/images/heroes/watch-series-5/hero__dvsxv8smkkgi_large.jpg) no-repeat center center;
+    width: 100%;
+    height: 624px;
+    background-size: 2560px 624px;
+    position: absolute;
+}
+
+.homepage-section {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.homepage-section .left {
+    width: 50%;
+    height: 624px;
+    float: left;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.homepage-section .right {
+    width: 50%;
+    height: 624px;
+    float: left;
+    background-color: #000000;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.homepage-section .left-img {
+    background: url(https://www.apple.com.cn/cn/home/images/promos/apple-watch-studio/tile__cauwwcyyn9hy_large.jpg) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    background-size: 1262px 580px;
+    display: block;
+}
+
+.homepage-section .right .right-img {
+    background: url(https://www.apple.com.cn/v/home/er/images/promos/airpods-pro/tile__cauwwcyyn9hy_large.jpg) no-repeat bottom;
+    width: 100%;
+    height: 100%;
+    background-size: 301px 384px;
+    display: block;
+}
+
+.homepage-section .left-text {
+    position: absolute;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.homepage-section .left-text .headline {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    margin-top: 52px;
+}
+
+.homepage-section .left-text .subhead {
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    margin-top: 4px;
+}
+
+.homepage-section .left-text .dow {
+    color: #06c;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    display: block;
+    margin-top: .7em;
+}
+
+.right .right-text {
+    color: #ffffff;
+}
+
+.main .footer {
+    width: 100%;
+    background-color: #f5f5f7;
+    min-width: 1024px;
+}
+
+.footer .footnote {
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+    padding: 17px 0 11px;
+}
+
+.footer .footnote li {
+    padding-bottom: 0.8em;
+}
+
+.footer-nav .column dt {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 600;
+    margin-bottom: 0.8em;
+    letter-spacing: 0.05em;
+}
+
+.footer .column dd {
+    font-size: 1em;
+    color: #515154;
+    margin-bottom: 0.8em;
+}
+
+.footer-nav .column {
+    display: inline-block;
+    flex-basis: 25%;
+    width: 240px;
+}
+
+.footer-nav {
+    margin-top: 20px;
+}
+
+.footer-end {
+    padding-top: 34px;
+    padding-bottom: 21px;
+}
+
+.footer-end .shop {
+    margin-bottom: 7px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d2d2d7;
+    color: #86868b;
+}
+
+.shop a {
+    color: #06c;
+}
+
+.shop a:hover {
+    text-decoration: underline;
+}
+
+.footer-legal {
+    color: #86868b;
+    float: left;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+.footer-legal-links a {
+    color: #515154;
+    border-right: 1px solid #d2d2d7;
+    margin-right: 7px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    white-space: nowrap;
+}
+
+.footer-legal-links a:hover {
+    text-decoration: underline;
+}
+
+.end {
+    margin-top: 0.8em;
+}
+
+.footer-end .end p a {
+    color: #666666;
+}
